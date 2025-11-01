@@ -698,6 +698,7 @@ display: flex;
 .portfolio-list {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 48px;
 }
 
@@ -738,7 +739,6 @@ display: flex;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
-    width: 288px;
 }
 
 .digital-service-item {
@@ -805,6 +805,9 @@ display: flex;
         justify-content: center;
         gap: 72px;
     }
+    .footer-left-content {
+      margin: 0 auto;  
+    }
 }
 
 .footer-left-content {
@@ -813,6 +816,7 @@ display: flex;
     align-items: center;
     gap: 16px;
     max-width: 288px;
+    
 }
 
 .footer-logo .logo-part {
